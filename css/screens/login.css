@@ -1,0 +1,67 @@
+.welcome-header {
+  margin: 95px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-header__title {
+  margin-bottom: 40px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.welcome-header__text {
+  width: 60%;
+  color: rgba(112, 112, 112, 0.7);
+}
+
+/* 아래부터 등장하는 id 지정을 이용한 스타일 부여는 
+  상단의 Block Element Modifier (BEM)과의 용이도 차이를 알아보기 위한 것임.
+  BEM 적용 시
+  .login-form__input {}
+  .login-form__btn {}
+  .login-form__a {}
+  */
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 15px;
+}
+
+#login-form input {
+  border: none;
+  padding: 30px 0px;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+#login-form input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
+}
+
+#login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#login-form input:focus {
+  border-color: var(--yellow);
+}
+
+#login-form input[type="submit"] {
+  background-color: var(--yellow);
+  cursor: pointer;
+  padding: 20px 0px;
+  border-radius: 5px;
+}
+
+#login-form a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
