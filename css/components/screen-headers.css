@@ -17,3 +17,17 @@
 .screen-header__icons span {
   margin-left: 25px;
 }
+
+.screen-header__icons {
+  position: relative;
+}
+
+.screen-header__red-dot-notification {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: absolute;
+  right: -5px;
+  bottom: 20px;
+}

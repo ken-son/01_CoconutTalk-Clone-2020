@@ -1,6 +1,4 @@
 #friends-display-link {
-  position: relative;
-  top: 105px;
   padding: 15px 0px;
   font-size: 16px;
   font-weight: 600;
@@ -8,6 +6,8 @@
   text-align: center;
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 #friends-display-link i {
@@ -27,15 +27,31 @@
 }
 
 .friends-screen__channel {
-  position: relative;
-  top: 155px;
+  margin-top: -5px;
   padding-top: 20px;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: var(--main-border);
 }
 
 .friends-screen__channel-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--grey-font-color);
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.user-component-channel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-component-title--not-bold {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+#user-component__column-right-number {
+  font-size: 17px;
+  margin-right: 10px;
 }

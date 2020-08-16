@@ -11,6 +11,10 @@
   width: 33%;
 }
 
+.status-bar__column:first-child {
+  margin-left: 10px;
+}
+
 .status-bar__column:first-child span {
   margin: 0px 5px;
 }
@@ -18,14 +22,16 @@
 .status-bar__column:nth-child(2) {
   display: flex;
   justify-content: center;
+  font-weight: 600;
 }
 
 .status-bar__column:last-child {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-right: 13px;
 }
 
 .status-bar__column .fa-battery-full {
-  margin: 0px 5px;
+  margin: 0px 8px;
 }

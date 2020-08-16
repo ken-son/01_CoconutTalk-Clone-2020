@@ -1,6 +1,7 @@
 .user-component {
-  position: relative;
-  top: 130px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
 }
 
 .user-component,
@@ -18,13 +19,21 @@
 
 .user-component-title {
   font-weight: 600;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .user-component__subtitle {
-  margin-top: 8px;
-  font-size: 17px;
-  color: rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  font-size: 18px;
+  color: var(--grey-font-color);
+}
+
+.user-component__subtitle span:first-child {
+  margin-right: 7px;
+}
+
+.user-component__subtitle span:last-child {
+  color: #ff5b49;
 }
 
 .user-component__avatar--xl {
@@ -39,24 +48,13 @@
 }
 
 .user-component__column:last-child {
+  color: var(--grey-font-color);
   display: flex;
-  align-items: center;
-  color: rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+  align-items: flex-end;
 }
 
-#user-component__column-right-number {
-  font-size: 20px;
-  margin-right: 10px;
-}
-
-.user-component-channel {
-  position: relative;
-  top: 30px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.user-component-title--not-bold {
-  font-size: 23px;
-  font-weight: 400;
+.user-component__time {
+  margin-bottom: 10px;
+  display: block;
 }
