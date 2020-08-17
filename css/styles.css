@@ -8,6 +8,8 @@
 @import "screens/friends.css";
 @import "screens/find.css";
 @import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 
 /* Components */
 @import "components/status-bar.css";
@@ -16,12 +18,13 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+@import "components/screen-limit.css";
 
 body {
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
   padding-top: 115px;
-  height: 1000vh;
 }
 
 .main-screen {

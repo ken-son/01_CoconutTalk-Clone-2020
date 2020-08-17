@@ -3,23 +3,23 @@
   font-size: 16px;
   font-weight: 600;
   background-color: #fafafa;
-  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
 }
 
-#friends-display-link i {
-  color: rgba(0, 0, 0, 0.3);
+.friends-display-link__column {
+  color: var(--grey-font-color);
 }
 
-#friends-display-link i:first-child {
-  margin: 0px 7px;
+.friends-display-link__column:first-child {
+  margin-right: 5px;
 }
 
-#friends-display-link i:last-child {
-  margin: 0px 15px;
+.friends-display-link__column:last-child {
+  box-sizing: border-box;
+  margin-left: 25px;
 }
 
 .friends-screen {
