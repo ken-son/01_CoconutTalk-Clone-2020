@@ -16,7 +16,7 @@
 }
 
 .recommended-friends span {
-  margin: 60px 0;
+  margin: 40px 0;
   display: block;
   text-align: center;
   color: var(--grey-font-color);
@@ -92,9 +92,9 @@
 }
 
 .open-post__photo img {
-  height: 120px;
-  width: 120px;
-  border-radius: 10px;
+  height: 90px;
+  width: 90px;
+  border-radius: 8px;
 }
 
 .open-post__heart-count {
