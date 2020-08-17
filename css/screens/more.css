@@ -1,24 +1,19 @@
-.more-screen .user-component {
-  padding: 1px;
-  margin-bottom: 50px;
-}
-
 .more-screen .icon-row {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .more-suggestions {
-  margin-top: 50px;
+  margin-top: 20px;
   border-top: var(--main-border);
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
 .more-suggestions__title {
   font-weight: 600;
   color: var(--grey-font-color);
-  font-size: 18px;
-  margin-bottom: 30px;
+  font-size: 15px;
+  margin-bottom: 20px;
 }
 
 .more-suggestions__icons {
@@ -26,26 +21,33 @@
 }
 
 .more-suggestions__icon {
-  margin-right: 30px;
+  margin-right: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .more-suggestions__icon-image {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   background-color: var(--yellow);
-  border-radius: 12px;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 28px;
+  font-size: 22px;
   color: white;
   margin-bottom: 10px;
 }
 
 .more-suggestions__icon-text {
+  font-size: 14px;
   color: var(--grey-font-color);
-  font-weight: 600;
+}
+
+.more-suggestions__icon-image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: 3px solid var(--yellow);
 }

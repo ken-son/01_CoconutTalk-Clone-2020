@@ -1,5 +1,5 @@
 .welcome-header {
-  margin: 60px;
+  margin: 5px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -7,7 +7,7 @@
 }
 
 .welcome-header__title {
-  margin-bottom: 80px;
+  margin-bottom: 30px;
   font-size: 25px;
   font-weight: 600;
 }
@@ -15,7 +15,7 @@
 .welcome-header__text {
   width: 60%;
   color: rgba(112, 112, 112, 0.7);
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 /* 아래부터 등장하는 id 지정을 이용한 스타일 부여는 
@@ -36,7 +36,7 @@
   border: none;
   padding: 30px 0px;
   font-size: 18px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 #login-form input:not([type="submit"]) {
@@ -68,7 +68,7 @@
 }
 
 #login-btn {
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 @keyframes hideSplashScreen {
