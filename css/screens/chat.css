@@ -120,11 +120,11 @@
 }
 
 .reply .reply__column:first-child {
-  width: 5%;
+  width: 10%;
 }
 
 .reply .reply__column:last-child {
-  width: 95%;
+  width: 90%;
   position: relative;
 }
 
@@ -136,7 +136,7 @@
   padding: 5px 15px;
   padding-right: 0px;
   height: 30px;
-  width: 98.5%;
+  width: 97%;
   border: var(--main-border);
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
@@ -191,7 +191,7 @@
 
 .reply input:focus {
   width: 93vw;
-  transform: translateX(-6%) translateY(-80px);
+  transform: translateX(-14%) translateY(-80px);
 }
 
 .reply:focus-within {
