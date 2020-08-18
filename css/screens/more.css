@@ -16,7 +16,6 @@
 }
 
 .more-suggestions__icon-container {
-  width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 25%);
   row-gap: 3px;
